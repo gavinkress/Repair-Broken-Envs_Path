@@ -1,26 +1,33 @@
 # Repair-Broken-Envs_Path
- Repair-Broken-Envs_Path
-<#
-.SYNOPSIS
-    Repairs and optimizes the system and user PATH environment variables on Windows 11.
+---
+Repair-Broken-Envs_Path
 
-.DESCRIPTION
+##
+SYNOPSIS
+---
+Repairs and optimizes the system and user PATH environment variables on Windows 11.
+
+##
+DESCRIPTION
+---
     This script dynamically rebuilds the PATH environment variables, ensuring they are correctly formatted,
     removing duplicates, and incorporating necessary directories. It handles both system and user PATH variables,
     adjusts them based on predefined directory arrays, and substitutes environment variable shortcuts back into paths
     as efficiently as possible to minimize the total length (using the largest fitting subsets).
-
+    
     The script sets various environment variables and provides utility functions for formatting paths,
     handling slashes, and managing environment variable substitutions.
 
     It dynamically creates environment variables for MSVC paths and identifies the best substrings in the paths
     to create additional environment variables if the PATH length exceeds the limit.
-
-.PARAMETER None
+##
+PARAMETER None
+---
     No parameters are required.
-
-.NOTES
-    - Name: Repair-Envs_Path
+###
+NOTES
+---
+-   - Name: Repair-Envs_Path
     - Homepage: https://github.com/gavinkress/Repair-Broken-Envs_Path
     - Author: Gavin Kress
     - Email: gavinkress@gmail.com
@@ -29,7 +36,7 @@
     - Programming Language(s): PowerShell
     - License: MIT License
     - Operating System: OS Independent
-#>
+#
 ```
 function Main {
     Clear-Host
