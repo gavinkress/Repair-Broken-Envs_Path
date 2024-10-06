@@ -1,5 +1,3 @@
-# Repair-Broken-Envs_Path
- Repair-Broken-Envs_Path
 <#
 .SYNOPSIS
     Repairs and optimizes the system and user PATH environment variables on Windows 11.
@@ -30,7 +28,7 @@
     - License: MIT License
     - Operating System: OS Independent
 #>
-```
+
 function Main {
     Clear-Host
 
@@ -443,4 +441,3 @@ function Main {
 }
 
 Main
-```
