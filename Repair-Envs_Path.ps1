@@ -85,6 +85,7 @@ function Main {
         "%NVCORP%/Nsight Compute 2024.3.0",
         "%NVCORP%/NVIDIA app/NvDLISR",
         "%ProgramFiles%/PowerShell/7",
+        "%ProgramFiles(x86)%/Windows Kits/10/bin/10.0.26100.0/x64"
         "%ProgramFiles%/R/R-4.4.1/bin",
         "%ProgramFiles%/R/R-4.4.1/bin/x64",
         "%ProgramFiles%/Wolfram Research/WolframScript",
